@@ -5,22 +5,19 @@ module.exports = {
   development: {
     client: 'mysql',
     connection: {
-      host : 'localhost',
-      user : 'root',
-      password : '090816',
-      database : 'diario_online'
+      host : '...',
+      user : '...',
+      password : '...',
+      database : '...'
     },
-    migrations: {
-      directory: './src/database/migrations'
-    }
   },
 
   staging: {
     client: 'mysql',
     connection: {
-      database: 'my_db',
-      user:     'root',
-      password: '090816'
+      database: '...',
+      user:     '...',
+      password: '...'
     },
     pool: {
       min: 2,
